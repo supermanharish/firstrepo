@@ -1,0 +1,40 @@
+*
+{
+  text-align: left;
+}
+form {
+    
+    flex-direction: column;
+}
+.required::after{
+ content: "*";
+ color: red;
+}
+h3{
+    font-size: larger;
+    font-family: 'Times New Roman', Times,
+}
+.checked {
+    color: orange;
+  }
+
+table{
+    
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+th,td {
+        width: 150px;
+        text-align: center;
+        padding: 5px;
+        
+      }
+    
+.bg-color{
+    background-color: rgb(234, 246, 247);
+  }
+
+.first
+{
+    word-spacing: 150px;
+}

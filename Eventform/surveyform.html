@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="surveyform.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>  
+   <form>
+    <div>
+    <label class="required"  for="name"><b>Name</b></label>
+    <br>
+    <input type="text" name="name" size="20" required/>
+    <input type="text" name="name" size="20" required/>
+    <br>
+    <label class="first">First </label>
+    <label> Last</label>
+    </div>
+    <br>
+    <div>
+        <label class="required"  for="email"><b>Email</b></label>
+        <br>
+        <input type="email" name="email" size="46" required/>
+    </div>
+
+<br>
+<strong>
+    <label class="required"  for="email">Your Experience</label>
+</strong>
+<br>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<br><br>
+<div>Overall,how would you rate your experience with us?</div>
+<br>
+
+<div class="required"><strong >How satisfied are you with</strong> </div> 
+<table>
+    <thead>
+        <th></th>
+        <th>Very Unsatified</th>
+        <th>Unsatified</th>
+        <th>Neutral</th>
+        <th>Satified</th>
+        <th>Very Satified</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="bg-color">Purchase</td><br>
+            <td class="bg-color"><input type="radio" name="purchase"></td>
+            <td class="bg-color"><input type="radio" name="purchase"></td>
+            <td class="bg-color"><input type="radio" name="purchase"></td>
+            <td class="bg-color"><input type="radio" name="purchase"></td>
+            <td class="bg-color"><input type="radio" name="purchase"></td>
+        </tr>
+        <tr>
+            <td>Service</td><br>
+            <td><input type="radio" name="service"></td>
+            <td><input type="radio" name="service"></td>
+            <td><input type="radio" name="service"></td>
+            <td><input type="radio" name="service"></td>
+            <td><input type="radio" name="service"></td>
+        </tr>
+        <tr>
+            <td class="bg-color"> Company Overall</td><br>
+            <td class="bg-color"><input  type="radio" name="company"></td>
+            <td class="bg-color"><input   type="radio" name="company"></td>
+            <td class="bg-color"><input  type="radio" name="company"></td>
+            <td  class="bg-color"><input  type="radio" name="company"></td>
+            <td  class="bg-color"><input  type="radio" name="company"></td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+<strong class="required">How likely are you to</strong>  
+<table>
+    <thead>
+        <th></th>
+        <th>Very Unlikely</th>
+        <th>Unlikely</th>
+        <th>Neutral</th>
+        <th>Likely</th>
+        <th>Very Likely</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="bg-color">Buy from us again</td><br>
+            <td class="bg-color"><input type="radio" name="buy"></td>
+            <td class="bg-color"><input type="radio" name="buy"></td>
+            <td class="bg-color"><input type="radio" name="buy"></td>
+            <td class="bg-color"><input type="radio" name="buy"></td>
+            <td class="bg-color"><input type="radio" name="buy"></td>
+        </tr>
+        <tr>
+            <td>Recommend our product to others</td><br>
+            <td><input type="radio" name="product"></td>
+            <td><input type="radio" name="product"></td>
+            <td><input type="radio" name="product"></td>
+            <td><input type="radio" name="product"></td>
+            <td><input type="radio" name="product"></td>
+        </tr>
+        <tr>
+            <td class="bg-color">Recommend our company to others</td><br>
+            <td class="bg-color"><input type="radio" name="others"></td>
+            <td class="bg-color"><input type="radio" name="others"></td>
+            <td class="bg-color"><input type="radio" name="others"></td>
+            <td class="bg-color"><input type="radio" name="others"></td>
+            <td class="bg-color"><input type="radio" name="others"></td>
+        </tr>
+    </tbody>
+</table>
+<h3> Additional comments or suggestion</h3>
+<textarea rows="5" cols="85"></textarea>
+<br><br>
+<button type="submit">Submit</button>
+</form>
+</main>
+</body>
+</html>

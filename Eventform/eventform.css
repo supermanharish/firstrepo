@@ -1,0 +1,37 @@
+.cen{
+    text-align: center;
+    font-size: larger;
+    height:50px ;
+}
+.fieldset{
+    width: 700px;
+    text-align: center;
+}
+.img{
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    box-sizing: border-box;   
+}
+.img1{
+    border-radius: 200%;
+    width:120px;
+    height:140px
+}
+/* .fixed{
+   display: block;
+} */
+.label{
+    display: grid;
+    place-items: center;
+}
+.num{
+    width:50px;
+    text-align: center;
+    
+}
+.seat{
+   text-align: center;
+}
